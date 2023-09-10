@@ -113,3 +113,23 @@ export const NavigateRouter = {
       "https://gigs.op.gg/products?game=LOL&?utm_source=opgg&utm_medium=lnb&utm_campaign=lol",
   },
 }
+
+export const FooterRouter = {
+  OPGG: {
+    title: "OP.GG",
+    router: [
+      { text: "About OP.GG", route: "/about", newTap: false },
+      {
+        text: "Company",
+        route: "https://log.op.gg/about-company",
+        newTap: true,
+      },
+      { text: "Blog", route: "https://log.op.gg/", newTap: true },
+      { text: "로고 히스토리", route: "/logos", newTap: false },
+    ],
+  },
+  Products: {
+    title: "Products",
+    router: [{ text: "리그오브레전드", route: "https://op.gg", newTap: true }],
+  },
+}
